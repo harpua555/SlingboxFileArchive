@@ -1,0 +1,307 @@
+#
+# This file is a translation file for VisualWget.
+#
+# Translator: Khomsan Phongphisansakun
+# Contact:    Khomsan.Ph@gmail.com
+#
+# The line beginning with a number sign (#) is a comment line.
+#
+
+#
+# In version 2.4 some of the items before 000196 are not used.
+# Please skip those items when you test your translation.
+#
+
+# Language
+000000 = English (English)
+
+# Main menu
+000001 = Downloads
+000002 =   New...
+000003 =   New Multiple...
+000004 =   Edit...
+000005 =   Remove...
+000006 =   Cleanup...
+000007 =   Start
+000008 =   Stop
+000009 =   Open Containing Folder
+000010 =   Move Up
+000011 =   Move Down
+000012 =   Export...
+000013 =   Quit
+000014 = View
+000015 =   Toolbar
+000016 =   Log
+000017 =   Status Bar
+000018 = Tools
+000019 =   Preferences...
+000020 =   Enable IE Extension
+000021 =   Default Download Options...
+000022 =   Compute MD5 Hash...
+000023 =   Compute SHA1 Hash...
+000024 =   Auto Remove Finished Download
+000025 =   When Downloads Finished
+000026 =     Disable
+000027 =     Quit
+000028 =     Stand By
+000029 =     Hibernate
+000030 =     Turn Off
+000031 =     Restart
+000032 =     Log Off
+000033 =     Lock Computer
+000034 = Help
+000035 =   Check for Updates
+000036 =   About VisualWget...
+
+# Job dialog
+000037 = New Download
+000038 = Edit Download
+000039 = Default Download Options
+000040 = General
+000041 =   URLs:
+000042 =   URL regular expressions:
+000043 =   Save files to:
+000044 =   Resume getting a partially-downloaded file
+000045 =   Don't re-retrieve files unless newer than local
+000046 =   Recursive download
+000047 =   Skip downloads that would download to existing files
+000048 =   Scheduler
+000049 =     Start automatically every
+000050 =     days
+000051 =   Write documents to:
+000052 = Advanced
+000053 =   Presets
+000054 =     Load
+000055 =     Save
+000056 =     Save As...
+000057 =     Delete
+000058 =   Reset
+000059 = Start this download when I click OK
+000060 = OK
+000061 = Cancel
+
+# Save preset dialog
+000062 = Save Preset
+000063 = Save this preset as:
+000064 = OK
+000065 = Cancel
+
+# New multiple dialog
+000066 = New Multiple Downloads
+000067 = URLs: (Use new line to split URLs into separate downloads)
+000068 = * Using the Default Download Options
+000069 = OK
+000070 = Cancel
+
+# Toolbar
+000071 = New
+000072 = Edit
+000073 = Remove
+000074 = Start
+000075 = Stop
+000076 = Open Containing Folder
+000077 = Move Up
+000078 = Move Down
+000079 = Enable IE Extension
+000080 = Default Download Options
+000081 = Preferences
+
+# Preferences dialog
+000082 = Preferences
+000083 = General
+000084 =   Speed limit
+000085 =     Limit download rate to:
+000086 =     KB/s
+000087 =   Queue
+000088 =     Max running downloads:
+000089 =   Retrying
+000090 =     * Applies to single file resumable downloads only
+000091 =     Retry if download is stopped unexpectedly
+000092 =     Retry attempts:
+000093 =     Time between retry attempts:
+000094 =       second
+000095 =       seconds
+000096 =       minute
+000097 =       minutes
+000098 =       hour
+000099 =   Updates
+000100 =     Check for updates automatically
+000101 =       Once a day
+000102 =       Once a week
+000103 = Interface
+000104 =   Translations
+000105 =     Language:
+000106 =   System tray
+000107 =     Close to tray
+000108 =     Minimize to tray
+000109 =     Show balloon tip
+000110 =     Always show tray icon
+000111 =   Wget consoles
+000112 =     Hide consoles
+000113 =     Redirect outputs
+000114 = Others
+000115 =   Proxies
+000116 =     HTTP proxy:
+000195 =     HTTPS proxy:
+000117 =     FTP proxy:
+000118 =     No proxy:
+000119 = OK
+000120 = Cancel
+
+# Auto shutdown prompt
+000121 = Auto Shutdown
+000122 = {0} within {1} seconds. Press Cancel or ESC to abort.
+000123 = Cancel
+# {0}
+000124 = Quit
+000125 = Stand by
+000126 = Hibernate
+000127 = Turn off
+000128 = Restart
+000129 = Log off
+000130 = Lock computer
+
+# About dialog
+000131 = About VisualWget
+000132 = Webpage
+000133 = OK
+
+# IE extension context menu
+000134 = Unregister IE Extension
+
+# Jobs list header
+000135 = Name
+000136 = #
+000137 = Size
+000138 = Done
+000139 = Status
+000140 = Speed
+000141 = ETA
+
+# Jobs list header context menu
+000142 = Name
+000143 = #
+000144 = Size
+000145 = Done
+000146 = Status
+000147 = Speed
+000148 = ETA
+
+# Jobs list
+## Size
+000149 = N/A
+000150 = B
+000151 = KB
+000152 = MB
+000153 = GB
+000154 = TB
+## Status
+000155 = Ready
+000156 = Queued
+000157 = Running
+000158 = Retrieving
+000159 = Stopped
+000160 = Finished
+## Speed
+000161 = B/s
+000162 = KB/s
+000163 = MB/s
+000164 = GB/s
+## ETA
+000165 = inf
+000166 = w
+000167 = d
+000168 = h
+000169 = m
+000170 = s
+
+# Messages
+000171 = This will permanently remove the selected downloads.\n\nAre you sure you want to continue?
+000172 = This will permanently remove all finished downloads.\n\nAre you sure you want to continue?
+000173 = Failed to check for updates, please try again later.
+000174 = New version of VisualWget is available. Visit the download page now?
+000175 = You already have the latest version of VisualWget.
+000176 = Error computing MD5 hash!
+000177 = Error computing SHA1 hash!
+000178 = {0}\n\n(Press Ctrl+C to copy this message to clipboard)
+000179 = The preset value already exist as '{0}'. Overwrite?
+000180 = Please type a name for the preset you want to save.
+000181 = The preset '{0}' already exist. Overwrite?
+000182 = Error saving presets!\n\n{0}
+000183 = Error registering IE Extension!
+000184 = Error unregistering IE Extension!
+000185 = Error creating mutex!\n\n{0}
+000186 = Another instance of VisualWget with the different executable path is already running.
+000187 = Error parsing opt file!\n\n{0}
+000188 = Failed to initialize wget options, VisualWget will now exit.
+000189 = Error saving download list!\n\n{0}
+000190 = Error saving settings!\n\n{0}
+000191 = Some downloads are currently running.\nClosing will stop all running downloads and exit.\n\nAre you sure you want to close?
+000192 = Do you want to set VisualWget as a default download manager for Internet Explorer?\n\n(Note: You can set this later by selecting Enable IE Extension from the Tools menu.)
+000193 = Internet Explorer already has other custom download manager registered.\n\nDo you want to overwrite?
+000194 = The directory '{0}' doesn't exists.
+
+#
+# New Items in Version 2.4
+#
+
+000196 = Discussion Group
+000197 = Website
+000198 = Download list
+000199 = Double-click to open file with associated program
+000200 = Prompt when opening these type of files:
+000201 = Font
+000202 = Set Interface Font...
+000203 = Use Default Font
+000204 = Log on
+000205 = Run VisualWget each time that I log on
+000206 = New download
+000207 = Do not prompt when creating a new download externally
+000208 = hours
+000209 = Load Empty
+000210 = Note:
+000211 = Opening this file could damage your computer.\nYou should not open it unless you trust the source.\n\nDo you want to open this file?
+000212 = Downloaded file does not exists.
+000213 = Note
+000214 = HTTP
+000215 = User agent:
+000216 = Referer:
+000217 = Failed to edit the download.\nThe download is currently running.
+000218 = Some downloads are currently running.\nNo download has been modified.
+
+# Global OK Cancel
+000219 = OK
+000220 = Cancel
+
+000221 = The referer has been set for all selected downloads.
+000222 = The referer has been cleared for all selected downloads.
+000223 = Directory doesn't exists.
+000224 = Download directory has been set for all selected downloads.
+000225 = Set Download Directory
+000226 = Download directory:
+000227 = Total
+#000228 = {0} ({1} downloads)
+000229 = Auto
+000230 = Size unit
+000231 = Download has been started
+000232 = Customize...
+000233 = Please enter each value separated by comma.\nEnter 'default' to restore the default list.
+000234 = Customize Speed Limit List
+000235 = Unlimited
+000236 = Download has been finished
+000237 = {0} has been downloaded.
+000238 = Freeze
+000239 = Cancelable
+000240 = Speed Limit
+000241 = Detect Clipboard
+000242 = Sounds
+000243 = System sounds
+000244 = Play sound when each download has been finished
+000245 = Play sound when all downloads have been finished
+000246 = New Multiple
+000247 = Resuming
+000248 = Edit Multiple
+000249 = Set Download Directory...
+000250 = Set HTTP Referer...
+000260 = Export
+000261 = Wget Batch File...

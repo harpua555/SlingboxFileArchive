@@ -1,0 +1,128 @@
+#
+# WARNING: DO NOT MODIFY THIS FILE IF YOU'RE NOT SURE WHAT YOU ARE DOING.
+#
+# Wget 1.11.4 option file for VisualWget 2.4
+#
+# Pipe character (|) is reserved for internal use. If you need to enter a pipe character, use {p} instead.
+#
+
+Basic Startup
+Logging and Input File
+Download
+Directory
+HTTP
+HTTPS (SSL/TLS)
+FTP
+Recursive Retrieval
+Recursive Accept/Reject
+
+version               |  False  |           |            |  Display the version of Wget and exit.
+help                  |  False  |           |            |  Print this help.
+background            |  False  |           |            |  Go to background after startup.
+execute               |  True   |  COMMAND  |            |  Execute a `.wgetrc'-style command.
+
+output-file           |  True   |  FILE     |  ShowSave  |  Log messages to FILE.
+append-output         |  True   |  FILE     |  ShowSave  |  Append messages to FILE.
+debug                 |  False  |           |            |  Print lots of debugging information.
+quiet                 |  False  |           |            |  Quiet (no output).
+verbose               |  False  |           |            |  Be verbose (this is the default).
+no-verbose            |  False  |           |            |  Turn off verboseness, without being quiet.
+input-file            |  True   |  FILE     |  ShowOpen  |  Download URLs found in FILE.
+force-html            |  False  |           |            |  Treat input file as HTML.
+base                  |  True   |  URL      |            |  Prepends URL to relative links in --force-html --input-file=FILE.
+
+tries                 |  True   |  NUMBER   |            |  Set number of retries to NUMBER (0 unlimits).
+retry-connrefused     |  False  |           |            |  Retry even if connection is refused.
+output-document       |  True   |  FILE     |  ShowSave  |  Write documents to FILE.
+no-clobber            |  False  |           |            |  Skip downloads that would download to existing files.
+continue              |  False  |           |            |  Resume getting a partially-downloaded file.
+progress              |  True   |  TYPE     |            |  Select progress gauge type.
+timestamping          |  False  |           |            |  Don't re-retrieve files unless newer than local.
+server-response       |  False  |           |            |  Print server response.
+spider                |  False  |           |            |  Don't download anything.
+timeout               |  True   |  SECONDS  |            |  Set all timeout values to SECONDS.
+dns-timeout           |  True   |  SECS     |            |  Set the DNS lookup timeout to SECS.
+connect-timeout       |  True   |  SECS     |            |  Set the connect timeout to SECS.
+read-timeout          |  True   |  SECS     |            |  Set the read timeout to SECS.
+wait                  |  True   |  SECONDS  |            |  Wait SECONDS between retrievals.
+waitretry             |  True   |  SECONDS  |            |  Wait 1..SECONDS between retries of a retrieval.
+random-wait           |  False  |           |            |  Wait from 0...2*WAIT secs between retrievals.
+no-proxy              |  False  |           |            |  Explicitly turn off proxy.
+quota                 |  True   |  NUMBER   |            |  Set retrieval quota to NUMBER.
+bind-address          |  True   |  ADDRESS  |            |  Bind to ADDRESS (hostname or IP) on local host.
+limit-rate            |  True   |  RATE     |            |  Limit download rate to RATE.
+no-dns-cache          |  False  |           |            |  Disable caching DNS lookups.
+restrict-file-names   |  True   |  OS       |            |  Restrict chars in file names to ones OS allows.
+ignore-case           |  False  |           |            |  Ignore case when matching files/directories.
+user                  |  True   |  USER     |            |  Set both ftp and http user to USER.
+password              |  True   |  PASS     |            |  Set both ftp and http password to PASS.
+
+no-directories        |  False  |           |            |  Don't create directories.
+force-directories     |  False  |           |            |  Force creation of directories.
+no-host-directories   |  False  |           |            |  Don't create host directories.
+protocol-directories  |  False  |           |            |  Use protocol name in directories.
+directory-prefix      |  True   |  PREFIX   |  ShowDir   |  Save files to PREFIX/...
+cut-dirs              |  True   |  NUMBER   |            |  Ignore NUMBER remote directory components.
+
+http-user             |  True   |  USER     |            |  Set http user to USER.
+http-password         |  True   |  PASS     |            |  Set http password to PASS.
+no-cache              |  False  |           |            |  Disallow server-cached data.
+html-extension        |  False  |           |            |  Save HTML documents with `.html' extension.
+ignore-length         |  False  |           |            |  Ignore `Content-Length' header field.
+header                |  True   |  STRING   |            |  Insert STRING among the headers.
+max-redirect          |  True   |  NUMBER   |            |  Maximum redirections allowed per page.
+proxy-user            |  True   |  USER     |            |  Set USER as proxy username.
+proxy-password        |  True   |  PASS     |            |  Set PASS as proxy password.
+referer               |  True   |  URL      |            |  Include `Referer: URL' header in HTTP request.
+save-headers          |  False  |           |            |  Save the HTTP headers to file.
+user-agent            |  True   |  AGENT    |            |  Identify as AGENT instead of Wget/VERSION.
+no-http-keep-alive    |  False  |           |            |  Disable HTTP keep-alive (persistent connections).
+no-cookies            |  False  |           |            |  Don't use cookies.
+load-cookies          |  True   |  FILE     |  ShowOpen  |  Load cookies from FILE before session.
+save-cookies          |  True   |  FILE     |  ShowSave  |  Save cookies to FILE after session.
+keep-session-cookies  |  False  |           |            |  Load and save session (non-permanent) cookies.
+post-data             |  True   |  STRING   |            |  Use the POST method; send STRING as the data.
+post-file             |  True   |  FILE     |  ShowOpen  |  Use the POST method; send contents of FILE.
+content-disposition   |  False  |           |            |  Honor the Content-Disposition header when choosing local file names.
+auth-no-challenge     |  False  |           |            |  Send basic HTTP authentication without waiting for the server's challenge.
+
+secure-protocol       |  True   |  PR       |            |  Choose secure protocol, one of auto, SSLv2, SSLv3, and TLSv1.
+no-check-certificate  |  False  |           |            |  Don't validate the server's certificate.
+certificate           |  True   |  FILE     |  ShowOpen  |  Client certificate file.
+certificate-type      |  True   |  TYPE     |            |  Client certificate type, PEM or DER.
+private-key           |  True   |  FILE     |  ShowOpen  |  Private key file.
+private-key-type      |  True   |  TYPE     |            |  Private key type, PEM or DER.
+ca-certificate        |  True   |  FILE     |  ShowOpen  |  File with the bundle of CA's.
+ca-directory          |  True   |  DIR      |  ShowDir   |  Directory where hash list of CA's is stored.
+random-file           |  True   |  FILE     |  ShowOpen  |  File with random data for seeding the SSL PRNG.
+egd-file              |  True   |  FILE     |  ShowOpen  |  File naming the EGD socket with random data.
+
+ftp-user              |  True   |  USER     |            |  Set ftp user to USER.
+ftp-password          |  True   |  PASS     |            |  Set ftp password to PASS.
+no-remove-listing     |  False  |           |            |  Don't remove `.listing' files.
+no-glob               |  False  |           |            |  Turn off FTP file name globbing.
+no-passive-ftp        |  False  |           |            |  Disable the "passive" transfer mode.
+retr-symlinks         |  False  |           |            |  When recursing, get linked-to files (not dir).
+preserve-permissions  |  False  |           |            |  Preserve remote file permissions.
+
+recursive             |  False  |           |            |  Specify recursive download.
+level                 |  True   |  NUMBER   |            |  Maximum recursion depth (inf or 0 for infinite).
+delete-after          |  False  |           |            |  Delete files locally after downloading them.
+convert-links         |  False  |           |            |  Make links in downloaded HTML point to local files.
+backup-converted      |  False  |           |            |  Before converting file X, back up as X.orig.
+mirror                |  False  |           |            |  Shortcut for --timestamping --recursive --level=inf --no-remove-listing.
+page-requisites       |  False  |           |            |  Get all images, etc. needed to display HTML page.
+strict-comments       |  False  |           |            |  Turn on strict (SGML) handling of HTML comments.
+
+accept                |  True   |  LIST     |            |  Comma-separated list of accepted extensions.
+reject                |  True   |  LIST     |            |  Comma-separated list of rejected extensions.
+domains               |  True   |  LIST     |            |  Comma-separated list of accepted domains.
+exclude-domains       |  True   |  LIST     |            |  Comma-separated list of rejected domains.
+follow-ftp            |  False  |           |            |  Follow FTP links from HTML documents.
+follow-tags           |  True   |  LIST     |            |  Comma-separated list of followed HTML tags.
+ignore-tags           |  True   |  LIST     |            |  Comma-separated list of ignored HTML tags.
+span-hosts            |  False  |           |            |  Go to foreign hosts when recursive.
+relative              |  False  |           |            |  Follow relative links only.
+include-directories   |  True   |  LIST     |            |  List of allowed directories.
+exclude-directories   |  True   |  LIST     |            |  List of excluded directories.
+no-parent             |  False  |           |            |  Don't ascend to the parent directory.
